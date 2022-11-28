@@ -41,7 +41,7 @@ class Quiz {
                 new Apple(120, FilteringApples.Color.RED));
 
         prettyPrintApple(inventory, new AppleFancyFormatter());
-
+        prettyPrintApple(inventory, new AppleSimpleFormatter());
 
 
     }
